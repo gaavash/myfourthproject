@@ -1,0 +1,29 @@
+.hero{
+ margin: 0;
+
+}
+.header{
+    background-image: url("../../uploads/second.jpeg");
+    background-size: cover;
+    padding: 5em 5em 10em 5em;
+    width: 100%;
+    height: 75%;
+    background-position: center;
+    clip-path: inset(24% 0 21% 0);
+    background-attachment: fixed;
+    color: white;
+}
+
+
+.heading{
+    text-align: center;
+    color: white;
+    font-size: 2.5em;
+    
+
+}
+.reading{
+    text-align: center;
+    color: white;
+
+}

@@ -1,0 +1,861 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    transition: all 0.5s ease;
+}
+
+
+:root {
+    --iframe: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3516.2733052094136!2d84.0189071143617!3d28.199007882590866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39959676baeea137%3A0x1f1a4a35cd0594e!2sH04%2C%20Pokhara%2033700!5e0!3m2!1sen!2snp!4v1656349329246!5m2!1sen!2snp"width="150"height="150"style="border:0;"title="location of KASKI MODERNIZED ACADEMY"allowfullscreen=""loading="lazy"referrerpolicy="no-referrer-when-downgrade"></iframe>
+}
+
+
+/* mathi ko header  */
+P {
+    padding: 10px;
+}
+.btn{
+   
+    padding: 0.9rem 1.8rem;
+    width: 8.75rem;
+    border: 2px solid white;
+    font-family:Tahoma;
+    text-decoration: none;
+    border-radius: 3em;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2.5rem;
+    color: white;
+  }
+  .btn:hover{
+    background-color: azure;
+    color: black;
+    transition: all 0.6s ease;
+  }
+  
+
+.header {
+    background-color: #032154;
+    display: flex;
+    color: white;
+    padding: 5px 10px;
+}
+
+.header1 {
+    flex: 5;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.header2 {
+    flex: 5;
+    text-align: right;
+    padding: 20px;
+}
+
+.ul {
+    display: inline;
+    list-style-type: none;
+}
+
+.ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.ul li a:hover {
+    text-decoration: underline;
+
+}
+
+.items a {
+    display: block;
+    color: black;
+}
+
+.items {
+    display: none;
+    position: absolute;
+    background-color: #666;
+    top: 113.5px;
+    padding: 10px;
+    width: 25%;
+
+}
+
+.dropdown:hover .items {
+
+
+    display: block;
+
+}
+
+.header2 p {
+    padding: 10px;
+}
+
+.header2 a {
+    padding: 10px;
+    color: white
+}
+
+.header2 a:hover {
+    font-size: 10px;
+}
+
+
+/* tala ko header  */
+nav {
+    width: 100%;
+    height: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.headerdown {
+    display: flex;
+    background-color: white;
+    padding: 40px 20px;
+}
+
+.right1 {
+    flex: 4;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.middle1 {
+    flex: 2;
+    font-size: 35px;
+    text-align: left;
+    color: gold;
+}
+
+.left1 {
+    flex: 4;
+    font-size: 20px;
+    padding-left: 150px;
+}
+
+.right1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.left1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.right1 a:hover {
+    text-decoration: underline;
+
+}
+
+.left1 a:hover {
+    text-decoration: underline;
+}
+
+/* nav bar  */
+nav {
+    background-color: #032154;
+    padding: 30px;
+}
+
+.ull {
+    list-style: none;
+    display: inline;
+}
+
+.ull li {
+    display: inline;
+    padding: 25px;
+}
+
+.ull li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.ull li a:hover {
+    text-decoration: underline;
+}
+
+.ull li:hover {
+    background-color: aqua;
+
+}
+
+.ull li:hover {
+    background-color: aqua;
+}
+
+.nohover:hover {
+    background-color: #032154 !important;
+}
+
+.SIGN {
+    border-radius: 5px 20px;
+    background-color: gold;
+    letter-spacing: 2px;
+    text-align: right;
+    padding-left: 130px;
+
+
+}
+
+.SIGN:hover {
+    background-color: black !important;
+}
+
+/* section  */
+#HOME {
+
+    background-image: url("../../uploads/backgroundmain.jpg");
+    background-size: cover;
+}
+
+.child {
+
+    display: flex;
+    top: 7.5rem;
+
+}
+
+.leftchild {
+    flex: 7;
+}
+
+.rightchild {
+    flex: 3;
+}
+
+.a {
+    font-size: 6rem;
+    color: white;
+}
+
+.b {
+    font-size: 6rem;
+    color: white;
+}
+
+.c {
+    font-size: 3rem;
+    color: yellow;
+}
+
+.d {
+    font-size: 2rem;
+    color: white;
+}
+
+.form {
+    overflow: hidden;
+}
+
+.i {
+    width: 350px;
+    height: 350px;
+}
+
+@media (max-width:1225px) {
+    .form {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media (max-width:920px) {
+    /* .parent{
+        position: relative;
+    }
+    .rightchild{
+        position: absolute;
+        bottom: 0;
+    }
+
+    .rightchild img {
+        width: 200px;
+        height: 200px;
+        
+    } */
+
+    .a {
+        font-size: 5rem;
+    }
+
+    .b {
+        font-size: 5rem;
+    }
+
+    .c {
+        font-size: 2rem;
+    }
+
+    .d {
+        font-size: 1rem;
+    }
+
+    .rightchild {
+        position: relative;
+    }
+
+    .rightchild img {
+        width: 200px;
+        height: 300px;
+        position: absolute;
+        bottom: 0;
+
+    }
+
+    .i {
+        width: 200px;
+        height: 200px;
+    }
+
+
+}
+
+.forms {
+    align-items: center;
+    justify-items: center;
+}
+
+@media (max-width:660px) {
+    /* .parent{
+        position: relative;
+    }
+    .rightchild{
+        position: absolute;
+        bottom: 0;
+    }
+
+    .rightchild img {
+        width: 200px;
+        height: 200px;
+        
+    } */
+
+    .a {
+        font-size: 3rem;
+    }
+
+    .b {
+        font-size: 3rem;
+    }
+
+    .c {
+        font-size: 1rem;
+    }
+
+    .d {
+        font-size: 0.5rem;
+    }
+
+    .rightchild {
+        position: relative;
+    }
+
+    .rightchild img {
+        width: 150px;
+        height: 200px;
+        position: absolute;
+        bottom: 0;
+
+    }
+
+}
+
+.about {
+    display: flex;
+    padding: 50px 20px;
+}
+
+.words {
+    flex: 6;
+}
+
+.words p {
+    padding: 10px;
+}
+
+.image {
+    flex: 4;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+}
+
+.yellow {
+    color: goldenrod;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.blue {
+    color: blue;
+    font-size: 40px;
+}
+
+.black {
+    font-size: 20px;
+}
+
+.aboutpaxi {
+    padding: 30px 10px;
+}
+
+.aboutpaxi a {
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.aboutpaxi a:hover {
+    background-color: black;
+    color: white;
+    text-decoration: underline;
+}
+
+.START {
+    background-color: gold;
+
+    font-size: 30px;
+}
+
+.table {
+    display: flex;
+    padding: 60px 60px;
+}
+
+#SERVICES {
+    padding: 40px 20px;
+}
+
+.under:hover {
+    color: gold;
+}
+
+.leftpatti {
+    padding: 20px;
+}
+
+.leftpatti img {
+    padding: 20px;
+}
+
+.middlepatti {
+    padding: 20px;
+}
+
+.middlepatti img {
+    padding: 20px;
+}
+
+.rightpatti {
+    padding: 20px;
+}
+
+.rightpatti img {
+    padding: 20px;
+}
+
+.readmore {
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 40px;
+
+}
+
+.readmore a {
+    text-decoration: none;
+    color: gold;
+}
+
+.PORTFOLIO {
+    padding: 40px;
+}
+
+.box {
+    display: flex;
+    padding: 20px;
+    overflow: hidden;
+}
+.btn{
+    display: block;
+    padding: 0.9rem 1.8rem;
+    width: 8.75rem;
+    border: 2px solid black;
+    font-family:Tahoma;
+    text-decoration: none;
+    border-radius: 3em;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2.5rem;
+    color: white;
+}
+.aavash{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2em;
+}
+.aavash1,.aavash2,.aavash3,.aavash4{
+    flex: 2.5;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.first, .second, .third, .fourth {
+    padding: 10px;
+    flex:2.5;
+    flex-wrap: wrap;
+}
+
+.innermain {
+    display: flex;
+    padding: 10px;
+}
+
+.im, .wr {
+    padding: 10px;
+}
+
+.readmores {
+    font-size: 30px;
+
+    padding: 40px;
+
+}
+
+.readmores a {
+    text-decoration: none;
+    color: gold;
+}
+
+.form {
+    display: flex;
+    margin: 5%;
+}
+
+.leftpatt {
+    padding: 30px;
+}
+
+.leftpatt img {
+
+    border-radius: 360%;
+    border: 15px solid grey;
+}
+
+.middlepatt {
+    padding: 30px;
+}
+
+.middlepatt img {
+
+    border-radius: 360%;
+    border: 15px solid grey;
+}
+
+.rightpatt {
+    padding: 30px;
+}
+
+.rightpatt img {
+
+    border-radius: 360%;
+    border: 15px solid grey;
+}
+.cc {
+    margin: 0 25%;
+}
+.child{
+    overflow: hidden;
+}
+.animate {
+   
+    padding: 20px 300px;
+}
+
+.inbox {
+    padding: 2em;
+    border: 1px solid gold;
+    overflow:hidden;
+}
+
+.outbox {
+    display: flex;
+    padding: 20px;
+
+}
+
+.lefts {
+    flex: 2;
+    text-align: right;
+}
+
+.rights {
+    flex: 8;
+    text-align: left;
+    padding: 30px 0px 0px 10px;
+
+}
+
+.eutai {
+    text-align: center;
+}
+
+.form {
+    padding: 20px;
+}
+
+.single {
+
+    text-align: center;
+
+}
+
+label {
+    align-items: center;
+}
+
+.START {
+    border-radius: 50%;
+    width: 10em;
+}
+
+.input {
+
+    display: block;
+    padding: 20px 200px;
+    text-align: center;
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 10px;
+
+}
+
+.single a:hover {
+    background-color: blue;
+    color: white;
+}
+
+.single a {
+    border-radius: 50%;
+    width: 4em;
+    margin-left: 45%;
+}
+
+.forms {
+    position: relative;
+}
+
+.absol {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    background-color: gold;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.absol:hover {
+    background-color: black;
+    color: white;
+}
+
+/* footer  */
+.main2 {
+    background-image: url("../../uploads/backgroundmain.jpg");
+    overflow: hidden;
+    background-size: cover;
+    padding: 50px;
+}
+.man{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.first {
+    flex: 4;
+    padding: 10px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ma{
+    display: flex;
+    flex-wrap: wrap;
+}
+.single{
+    overflow: hidden;
+}
+ul{
+    list-style: none;
+}
+.r{
+    flex: 4;
+
+}
+.s{
+    flex: 2;
+}
+.t{
+    flex: 2;
+}
+.u{
+    flex:2;
+}
+.first p a {
+    text-decoration: none;
+}
+
+.first p a:hover {
+    background-color: aqua;
+    color: black;
+}
+.headerdown{
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.outbox{
+    flex-wrap: wrap;
+
+}
+.box{
+    flex-wrap: wrap;
+}
+.ancher a {
+    padding: 10px;
+}
+
+.second {
+    flex: 2;
+    padding: 10px;
+    height: auto;
+}
+.in{
+    color: black;
+    width: 100%;
+    padding: 10px 50px;
+}
+.second ul li a {
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+.second p a:hover {
+    background-color: aqua;
+    color: black;
+}
+
+.third {
+    flex: 2;
+    padding: 10px;
+    height: auto;
+}
+
+.fourth {
+    flex: 2;
+    padding: 10px;
+    height: auto;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    color: aquamarine;
+    font-size: larger;
+}
+
+footer div {
+    color: white;
+    padding: 10px;
+}
+.u:hover{
+    color: white;
+    background-color: blue;
+}
+
+@media(max-width:480px) {
+
+    .headerdown {
+        flex-direction: column;
+    }
+
+    #HOME imgg {
+        width: 100%;
+        height: 1000px;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .ull li {
+        display: block;
+    }
+
+    /* .child{
+    flex-direction: column;
+
+  } */
+    .about {
+        flex-direction: column;
+    }
+
+    .table {
+        flex-direction: column;
+    }
+
+    .box {
+        flex-direction: column;
+    }
+
+    .innermain {
+
+        flex-direction: column;
+
+    }
+
+    .form {
+        flex-direction: column;
+
+    }
+
+    .animate {
+        flex-direction: column;
+    }
+
+    .single {
+        flex-direction: column;
+    }
+
+    .main1 {
+        flex-direction: column;
+
+    }
+
+    .main2 {
+        flex-direction: column;
+    }
+
+}
